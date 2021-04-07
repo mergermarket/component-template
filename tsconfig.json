@@ -2,5 +2,12 @@
   "extends": "@tsconfig/svelte/tsconfig.json",
   "include": [
     "src/**/*"
-  ]
+  ],
+  "exclude": [
+    "node_modules", "**/*.spec.ts", "**/*.test.ts",
+  ],
+  "compilerOptions": {
+    "types": ["reflect-metadata", "jest"],
+    "typeRoots": ["./types", "./node_modules/@types"]
+  }
 }
