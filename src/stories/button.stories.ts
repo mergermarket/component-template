@@ -12,3 +12,8 @@ export default {
     },
   },
 };
+
+export const Default = (args) => ({
+  Component: Button,
+  props: args,
+});
