@@ -7,7 +7,7 @@
     "node_modules", "**/*.spec.ts", "**/*.test.ts",
   ],
   "compilerOptions": {
-    "types": ["reflect-metadata", "jest"],
+    "types": ["jest"],
     "typeRoots": ["./types", "./node_modules/@types"]
   }
 }

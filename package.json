@@ -7,19 +7,12 @@
     "build": "rollup -c",
     "prepublishOnly": "npm run build",
     "test": "jest",
-    "test:watch": "npm run test -- --watchAll",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "test:watch": "npm run test -- --watchAll"
   },
   "devDependencies": {
     "@babel/core": "^7.13.14",
     "@rollup/plugin-node-resolve": "^9.0.0",
     "@rollup/plugin-typescript": "^8.2.1",
-    "@storybook/addon-actions": "^6.2.5",
-    "@storybook/addon-essentials": "^6.2.5",
-    "@storybook/addon-links": "^6.2.5",
-    "@storybook/addon-svelte-csf": "^1.0.0",
-    "@storybook/svelte": "^6.2.5",
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/svelte": "^3.0.3",
     "@tsconfig/svelte": "^1.0.10",
